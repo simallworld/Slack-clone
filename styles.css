@@ -6,7 +6,48 @@
 
 body{
       font-family: 'Poppins', sans-serif;
-      background: black;
-      color: white;
-      padding: 40px;
+      background: rgb(244, 244, 244);
+      color: black;
+}
+
+/* Navigation Designing */
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px;
+   width: 90%;
+   margin: 20px;
+   padding: 10px 30px;
+}
+
+.nav-left{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;  
+   gap: 30px;
+}
+
+.nav-left ul{
+   display: flex;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-left ul li{
+   margin-right: 20px;
+}
+
+.nav-left ul li a{
+   text-decoration: none;
+   color: black;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.nav-right{
+   display: flex;
+   align-items: center;
+   gap: 40px;
 }
